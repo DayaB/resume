@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "oviya-resume"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-bp1r6x3tac1m"
+s3_prefix = "oviya-resume"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+

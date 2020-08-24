@@ -56,6 +56,17 @@ html {
     background-position: center;
 }
 
+.counter p
+{
+    top:80%;
+    left:80%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color:#ebe1e1;
+    margin:10px;
+    
+}
+
 
 /* About me */
 .about
